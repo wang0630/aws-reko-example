@@ -4,13 +4,13 @@ import org.tcss.DetectLabels;
 
 public class Main {
   public static void main(String[] args) {
-//    if (args.length == 0) {
-//      System.out.println("File path must be provided!");
-//      return;
-//    }
+    if (args.length == 0) {
+      System.out.println("File path must be provided!");
+      return;
+    }
 
     DetectLabels detectLabels = new DetectLabels();
-
-    detectLabels.detectLabels("/Users/tsungjui/Desktop/test.JPG");
+    // "/Users/tsungjui/Desktop/test.JPG"
+    detectLabels.detectLabels(args[0]);
   }
 }
