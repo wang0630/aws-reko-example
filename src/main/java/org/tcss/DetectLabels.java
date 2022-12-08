@@ -35,7 +35,6 @@ public class DetectLabels {
               index + "-th: " + "Name of the label: " + label.name() + "\n" +
                   "Confidence score of the label: " + label.confidence() + "\n"
           );
-
           index++;
         }
 
